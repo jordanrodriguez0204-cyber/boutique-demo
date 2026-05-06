@@ -4,12 +4,12 @@ import { useState, useEffect, useRef } from 'react';
 /* ── DONNÉES ───────────────────────────────────────────────── */
 
 const pieces = [
-  { nom: 'Robe Séville', matiere: 'Soie naturelle', prix: 'CHF 485', src: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80', collection: 'Été', dispo: true },
-  { nom: 'Veste Opéra', matiere: 'Laine mérinos', prix: 'CHF 390', src: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&q=80', collection: 'Automne', dispo: true },
-  { nom: 'Manteau Camel', matiere: 'Laine & cachemire', prix: 'CHF 690', src: 'https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=600&q=80', collection: 'Automne', dispo: true },
-  { nom: 'Pantalon Milano', matiere: 'Crêpe de soie', prix: 'CHF 295', src: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80', collection: 'Printemps', dispo: false },
-  { nom: 'Chemisier Éden', matiere: 'Coton brodé main', prix: 'CHF 195', src: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&q=80', collection: 'Printemps', dispo: true },
-  { nom: 'Jupe Riviera', matiere: 'Lin lavé', prix: 'CHF 245', src: 'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?w=600&q=80', collection: 'Été', dispo: true },
+  { nom: 'Robe Séville', matiere: 'Soie naturelle', prix: 'CHF 485', src: 'https://images.unsplash.com/photo-1612336307429-8a898d10e223?w=600&q=80', collection: 'Été', dispo: true },
+  { nom: 'Veste Opéra', matiere: 'Laine mérinos', prix: 'CHF 390', src: 'https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=600&q=80', collection: 'Automne', dispo: true },
+  { nom: 'Manteau Camel', matiere: 'Laine & cachemire', prix: 'CHF 690', src: 'https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=600&q=80', collection: 'Automne', dispo: true },
+  { nom: 'Pantalon Milano', matiere: 'Crêpe de soie', prix: 'CHF 295', src: 'https://images.unsplash.com/photo-1594938298603-c8148c4b5ddd?w=600&q=80', collection: 'Printemps', dispo: false },
+  { nom: 'Chemisier Éden', matiere: 'Coton brodé main', prix: 'CHF 195', src: 'https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=600&q=80', collection: 'Printemps', dispo: true },
+  { nom: 'Jupe Riviera', matiere: 'Lin lavé', prix: 'CHF 245', src: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80', collection: 'Été', dispo: true },
 ];
 
 const services = [

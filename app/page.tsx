@@ -5,11 +5,11 @@ import { useState, useEffect, useRef } from 'react';
 
 const pieces = [
   { nom: 'Robe Séville', matiere: 'Soie naturelle', prix: 'CHF 485', src: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&q=80', collection: 'Été', dispo: true },
-  { nom: 'Veste Opéra', matiere: 'Laine mérinos', prix: 'CHF 390', src: 'https://images.unsplash.com/photo-1594938298603-c8148c4b5ddd?w=600&q=80', collection: 'Automne', dispo: true },
+  { nom: 'Veste Opéra', matiere: 'Laine mérinos', prix: 'CHF 390', src: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&q=80', collection: 'Automne', dispo: true },
   { nom: 'Manteau Camel', matiere: 'Laine & cachemire', prix: 'CHF 690', src: 'https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=600&q=80', collection: 'Automne', dispo: true },
   { nom: 'Pantalon Milano', matiere: 'Crêpe de soie', prix: 'CHF 295', src: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80', collection: 'Printemps', dispo: false },
   { nom: 'Chemisier Éden', matiere: 'Coton brodé main', prix: 'CHF 195', src: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&q=80', collection: 'Printemps', dispo: true },
-  { nom: 'Jupe Riviera', matiere: 'Lin lavé', prix: 'CHF 245', src: 'https://images.unsplash.com/photo-1583496661160-fb5218ees8be?w=600&q=80&crop=entropy', collection: 'Été', dispo: true },
+  { nom: 'Jupe Riviera', matiere: 'Lin lavé', prix: 'CHF 245', src: 'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?w=600&q=80', collection: 'Été', dispo: true },
 ];
 
 const services = [
@@ -54,9 +54,9 @@ const services = [
 const lookbook = [
   { src: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=700&q=80', alt: 'Look 01 — Printemps', col: 'col-span-1 row-span-2' },
   { src: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=700&q=80', alt: 'Look 02 — Été' },
-  { src: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700&q=80', alt: 'Look 03 — Automne' },
-  { src: 'https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=700&q=80', alt: 'Look 04 — Été' },
-  { src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=700&q=80', alt: 'Look 05 — Printemps' },
+  { src: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700&q=80', alt: 'Look 03 — Été' },
+  { src: 'https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=700&q=80', alt: 'Look 04 — Automne' },
+  { src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=700&q=80', alt: 'Look 05 — Hiver' },
 ];
 
 /* ── HOOK INTERSECTION ─────────────────────────────────────── */

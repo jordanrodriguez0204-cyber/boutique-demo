@@ -10,9 +10,9 @@ const pieces = [
   { nom: 'Pantalon Milano', matiere: 'Crêpe de soie', prix: 'CHF 295', src: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80', collection: 'Automne', dispo: false },
   { nom: 'Chemisier Éden', matiere: 'Coton brodé main', prix: 'CHF 195', src: 'https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=600&q=80', collection: 'Printemps', dispo: true },
   { nom: 'Robe Riviera', matiere: 'Lin lavé', prix: 'CHF 245', src: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80', collection: 'Été', dispo: true },
-  { nom: 'Top Capri', matiere: 'Lin & coton', prix: 'CHF 165', src: 'https://images.unsplash.com/photo-1563178406-4cdc2923acbc?w=600&q=80', collection: 'Été', dispo: true },
-  { nom: 'Trench Ciel', matiere: 'Gabardine légère', prix: 'CHF 445', src: 'https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?w=600&q=80', collection: 'Printemps', dispo: true },
-  { nom: 'Pull Brume', matiere: 'Cachemire pur', prix: 'CHF 395', src: 'https://images.unsplash.com/photo-1434394354979-a235cd36269d?w=600&q=80', collection: 'Automne', dispo: true },
+  { nom: 'Top Capri', matiere: 'Lin & coton', prix: 'CHF 165', src: '/top-capri.jpg', collection: 'Été', dispo: true },
+  { nom: 'Trench Ciel', matiere: 'Gabardine légère', prix: 'CHF 445', src: '/trench-ciel.jpg', collection: 'Printemps', dispo: true },
+  { nom: 'Pull Brume', matiere: 'Cachemire pur', prix: 'CHF 395', src: '/pull-brume.jpg', collection: 'Automne', dispo: true },
 ];
 
 const services = [
